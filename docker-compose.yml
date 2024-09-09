@@ -32,7 +32,7 @@ services:
     volumes:
       #Editable(with .) like .:/app
       - ./app:/app
-      # - ./data/web:/vol/web:z
+      # - ./data/web:/vol/web
     environment:
       - SECRET_KEY=devsecretkey
       - DEBUG=1
